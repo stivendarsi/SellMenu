@@ -1,0 +1,23 @@
+name: SellMenu
+version: '${version}'
+
+main: me.stivendarsi.sellMenu.SellMenu
+api-version: '26.2'
+load: POSTWORLD
+
+
+folia-supported: true
+dependencies:
+  server:
+    MiniPlaceholders:
+      required: true
+      load: BEFORE
+    TigerEconomy:
+      required: true
+      load: BEFORE
+    Vault:
+      required: true
+      load: BEFORE
+    Orbit:
+      required: true
+      load: BEFORE

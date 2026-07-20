@@ -1,0 +1,1751 @@
+messages:
+  received: "<cut_money_green:קיבלת <amount>>"
+
+items:
+  dragon_egg:                                          500000
+  netherite_block:                                     225000
+  elytra:                                              30000
+  netherite_ingot:                                     25000
+  trident:                                             10000
+  beacon:                                              7500
+  nether_star:                                         4000
+  enchanted_golden_apple:                              2000
+  netherite_chestplate:                                1400
+  netherite_leggings:                                  1300
+  diamond_block:                                       1100
+  netherite_helmet:                                    1100
+  creeper_head:                                        1000
+  deepslate_emerald_ore:                               1000
+  dragon_head:                                         1000
+  heavy_core:                                          1000
+  mace:                                                1050
+  netherite_boots:                                     1000
+  netherite_spear:                                     200
+  skeleton_skull:                                      1000
+  wither_skeleton_skull:                               1000
+  zombie_head:                                         1000
+  ancient_debris:                                      600
+  netherite_scrap:                                     600
+  conduit:                                             550
+  diamond_horse_armor:                                 500
+  enchanting_table:                                    500
+  music_disc_11:                                       500
+  music_disc_13:                                       500
+  music_disc_5:                                        500
+  music_disc_blocks:                                   500
+  music_disc_cat:                                      500
+  music_disc_chirp:                                    500
+  music_disc_creator:                                  500
+  music_disc_creator_music_box:                        500
+  music_disc_far:                                      500
+  music_disc_lava_chicken:                             500
+  music_disc_mall:                                     500
+  music_disc_mellohi:                                  500
+  music_disc_otherside:                                500
+  music_disc_pigstep:                                  500
+  music_disc_precipice:                                500
+  music_disc_relic:                                    500
+  music_disc_stal:                                     500
+  music_disc_strad:                                    500
+  music_disc_tears:                                    500
+  music_disc_wait:                                     500
+  music_disc_ward:                                     500
+  netherite_upgrade_smithing_template:                 500
+  saddle:                                              500
+  sponge:                                              500
+  redstone_block:                                      450
+  heart_of_the_sea:                                    400
+  ominous_trial_key:                                   400
+  wet_sponge:                                          400
+  netherite_pickaxe:                                   300
+  netherite_axe:                                       300
+  golden_horse_armor:                                  300
+  coast_armor_trim_smithing_template:                  250
+  dune_armor_trim_smithing_template:                   250
+  dried_kelp_block:                                    54
+  bolt_armor_trim_smithing_template:                   250
+  flow_armor_trim_smithing_template:                   250
+  eye_armor_trim_smithing_template:                    250
+  host_armor_trim_smithing_template:                   250
+  raiser_armor_trim_smithing_template:                 250
+  rib_armor_trim_smithing_template:                    250
+  sentry_armor_trim_smithing_template:                 250
+  shaper_armor_trim_smithing_template:                 250
+  silence_armor_trim_smithing_template:                250
+  snout_armor_trim_smithing_template:                  250
+  spire_armor_trim_smithing_template:                  250
+  tide_armor_trim_smithing_template:                   250
+  totem_of_undying:                                    250
+  vex_armor_trim_smithing_template:                    250
+  ward_armor_trim_smithing_template:                   250
+  wayfinder_armor_trim_smithing_template:              250
+  wild_armor_trim_smithing_template:                   250
+  glow_item_frame:                                     205
+  name_tag:                                            200
+  netherite_hoe:                                       200
+  netherite_sword:                                     200
+  piglin_head:                                         200
+  amethyst_block:                                      200
+  map:                                                 190
+  cake:                                                180
+  deepslate_diamond_ore:                               180
+  hay_block:                                           170
+  writable_book:                                       156
+  axolotl_bucket:                                      100
+  bee_nest:                                            100
+  beehive:                                             100
+  book:                                                100
+  bookshelf:                                           100
+  cod_bucket:                                          150
+  creaking_heart:                                      100
+  diamond_ore:                                         100
+  ender_chest:                                         150
+  iron_horse_armor:                                    100
+  jukebox:                                             100
+  lodestone:                                           100
+  netherite_shovel:                                    100
+  pufferfish_bucket:                                   150
+  respawn_anchor:                                      100
+  salmon_bucket:                                       150
+  sticky_piston:                                       100
+  tropical_fish_bucket:                                150
+  glow_ink_sac:                                        150
+  goat_horn:                                           150
+  nautilus_shell:                                      100
+  trial_key:                                           150
+  ominous_bottle:                                      100
+  dragon_breath:                                       100
+  copper_horse_armor:                                  100
+  netherite_horse_armor:                               100
+  tadpole_bucket:                                      150
+  lingering_potion:                                    145
+  repeater:                                            130
+  observer:                                            125
+  diamond:                                             120
+  anvil:                                               120
+  wolf_armor:                                          120
+  sea_lantern:                                         110
+  coal_block:                                          110
+  angler_pottery_sherd:                                100
+  archer_pottery_sherd:                                100
+  arms_up_pottery_sherd:                               100
+  blade_pottery_sherd:                                 100
+  brewer_pottery_sherd:                                100
+  burn_pottery_sherd:                                  100
+  danger_pottery_sherd:                                100
+  explorer_pottery_sherd:                              100
+  flow_pottery_sherd:                                  100
+  friend_pottery_sherd:                                100
+  guster_pottery_sherd:                                100
+  heart_pottery_sherd:                                 100
+  heartbreak_pottery_sherd:                            100
+  howl_pottery_sherd:                                  100
+  miner_pottery_sherd:                                 100
+  mourner_pottery_sherd:                               100
+  plenty_pottery_sherd:                                100
+  prize_pottery_sherd:                                 100
+  scrape_pottery_sherd:                                100
+  sheaf_pottery_sherd:                                 100
+  shelter_pottery_sherd:                               100
+  skull_pottery_sherd:                                 100
+  snort_pottery_sherd:                                 100
+  piston:                                              85
+  hopper_minecart:                                     85
+  black_shulker_box:                                   75
+  blue_ice:                                            75
+  blue_shulker_box:                                    75
+  brown_shulker_box:                                   75
+  cyan_shulker_box:                                    75
+  gray_shulker_box:                                    75
+  green_shulker_box:                                   75
+  light_blue_shulker_box:                              75
+  light_gray_shulker_box:                              75
+  lime_shulker_box:                                    75
+  magenta_shulker_box:                                 75
+  orange_shulker_box:                                  75
+  pink_shulker_box:                                    75
+  purple_shulker_box:                                  75
+  red_shulker_box:                                     75
+  shulker_box:                                         75
+  white_shulker_box:                                   75
+  yellow_shulker_box:                                  75
+  emerald_block:                                       72
+  lapis_block:                                         72
+  dropper:                                             70
+  rabbit_stew:                                         68
+  comparator:                                          65
+  tnt_minecart:                                        65
+  milk_bucket:                                         60
+  lava_bucket:                                         60
+  hopper:                                              60
+  chest_minecart:                                      57
+  item_frame:                                          55
+  disc_fragment_5:                                     55
+  redstone_torch:                                      52
+  oak_chest_boat:                                      52
+  spruce_chest_boat:                                   52
+  birch_chest_boat:                                    52
+  jungle_chest_boat:                                   52
+  acacia_chest_boat:                                   52
+  dark_oak_chest_boat:                                 52
+  mangrove_chest_boat:                                 52
+  cherry_chest_boat:                                   52
+  pale_oak_chest_boat:                                 52
+  bamboo_chest_raft:                                   52
+  amethyst_shard:                                      50
+  redstone:                                            50
+  ink_sac:                                             50
+  end_crystal:                                         50
+  shulker_shell:                                       50
+  diamond_shovel:                                      50
+  recovery_compass:                                    50
+  spyglass:                                            50
+  water_bucket:                                        50
+  black_banner:                                        50
+  blue_banner:                                         50
+  brown_banner:                                        50
+  cyan_banner:                                         50
+  dispenser:                                           50
+  gray_banner:                                         50
+  green_banner:                                        50
+  light_blue_banner:                                   50
+  light_gray_banner:                                   50
+  lightning_rod:                                       50
+  lime_banner:                                         50
+  magenta_banner:                                      50
+  orange_banner:                                       50
+  pink_banner:                                         50
+  purple_banner:                                       50
+  red_banner:                                          50
+  sculk_sensor:                                        50
+  white_banner:                                        50
+  yellow_banner:                                       50
+  creeper_banner_pattern:                              50
+  skull_banner_pattern:                                50
+  flower_banner_pattern:                               50
+  globe_banner_pattern:                                50
+  flow_banner_pattern:                                 50
+  guster_banner_pattern:                               50
+  piglin_banner_pattern:                               50
+  mojang_banner_pattern:                               50
+  field_masoned_banner_pattern:                        50
+  bordure_indented_banner_pattern:                     50
+  breeze_rod:                                          50
+  pumpkin_pie:                                         50
+  bread:                                               50
+  exposed_lightning_rod:                               50
+  weathered_lightning_rod:                             50
+  oxidized_lightning_rod:                              50
+  waxed_lightning_rod:                                 50
+  waxed_exposed_lightning_rod:                         50
+  waxed_weathered_lightning_rod:                       50
+  waxed_oxidized_lightning_rod:                        50
+  iron_nautilus_armor:                                 50
+  copper_nautilus_armor:                               50
+  golden_nautilus_armor:                               50
+  diamond_nautilus_armor:                              50
+  netherite_nautilus_armor:                            50
+  golden_chestplate:                                   48
+  carved_pumpkin:                                      48
+  bamboo_block:                                        45
+  black_bed:                                           45
+  blue_bed:                                            45
+  brown_bed:                                           45
+  chipped_anvil:                                       45
+  cyan_bed:                                            45
+  gray_bed:                                            45
+  green_bed:                                           45
+  light_blue_bed:                                      45
+  light_gray_bed:                                      45
+  lime_bed:                                            45
+  magenta_bed:                                         45
+  orange_bed:                                          45
+  pink_bed:                                            45
+  purple_bed:                                          45
+  red_bed:                                             45
+  white_bed:                                           45
+  yellow_bed:                                          45
+  splash_potion:                                       45
+  golden_leggings:                                     42
+  furnace_minecart:                                    41
+  golden_apple:                                        40
+  bell:                                                40
+  chiseled_bookshelf:                                  40
+  tnt:                                                 40
+  bundle:                                              40
+  white_bundle:                                        40
+  light_gray_bundle:                                   40
+  gray_bundle:                                         40
+  black_bundle:                                        40
+  brown_bundle:                                        40
+  red_bundle:                                          40
+  orange_bundle:                                       40
+  yellow_bundle:                                       40
+  lime_bundle:                                         40
+  green_bundle:                                        40
+  cyan_bundle:                                         40
+  light_blue_bundle:                                   40
+  blue_bundle:                                         40
+  purple_bundle:                                       40
+  magenta_bundle:                                      40
+  pink_bundle:                                         40
+  deepslate_lapis_ore:                                 36
+  deepslate_redstone_ore:                              36
+  honey_block:                                         36
+  resin_block:                                         36
+  resin_brick:                                         36
+  diamond_axe:                                         35
+  diamond_chestplate:                                  40
+  diamond_leggings:                                    35
+  diamond_pickaxe:                                     35
+  diamond_spear:                                       35
+  diamond_sword:                                       35
+  iron_chestplate:                                     35
+  golden_spear:                                        35
+  deepslate_gold_ore:                                  34
+  chest:                                               32
+  poisonous_potato:                                    32
+  trapped_chest:                                       32
+  copper_chest:                                        32
+  exposed_copper_chest:                                32
+  weathered_copper_chest:                              32
+  oxidized_copper_chest:                               32
+  waxed_copper_chest:                                  32
+  waxed_exposed_copper_chest:                          32
+  waxed_weathered_copper_chest:                        32
+  waxed_oxidized_copper_chest:                         32
+  black_dye:                                           30
+  compass:                                             30
+  damaged_anvil:                                       30
+  diamond_helmet:                                      30
+  echo_shard:                                          30
+  firework_rocket:                                     30
+  ghast_tear:                                          30
+  iron_leggings:                                       30
+  jack_o_lantern:                                      30
+  note_block:                                          30
+  redstone_lamp:                                       30
+  sniffer_egg:                                         30
+  shield:                                              30
+  firework_star:                                       30
+  fire_charge:                                         30
+  baked_potato:                                        28
+  coal_ore:                                            28
+  large_amethyst_bud:                                  28
+  vine:                                                28
+  budding_amethyst:                                    28
+  target:                                              28
+  deepslate_copper_ore:                                26
+  honey_bottle:                                        25
+  golden_helmet:                                       25
+  gold_block:                                          25
+  iron_block:                                          25
+  clock:                                               25
+  crying_obsidian:                                     25
+  detector_rail:                                       25
+  powered_rail:                                        25
+  diamond_boots:                                       25
+  diamond_hoe:                                         25
+  iron_helmet:                                         25
+  wither_rose:                                         25
+  minecart:                                            25
+  carrot_on_a_stick:                                   24
+  golden_boots:                                        24
+  nether_gold_ore:                                     24
+  nether_quartz_ore:                                   24
+  fermented_spider_eye:                                22
+  calibrated_sculk_sensor:                             20
+  chainmail_chestplate:                                20
+  chainmail_leggings:                                  20
+  cooked_rabbit:                                       20
+  copper_ore:                                          20
+  deepslate_iron_ore:                                  20
+  emerald_ore:                                         20
+  experience_bottle:                                   20
+  gold_ore:                                            20
+  honeycomb_block:                                     20
+  iron_boots:                                          20
+  loom:                                                20
+  medium_amethyst_bud:                                 20
+  turtle_egg:                                          20
+  turtle_helmet:                                       20
+  armor_stand:                                         20
+  cactus:                                              20
+  turtle_scute:                                        20
+  armadillo_scute:                                     20
+  leather:                                             20
+  painting:                                            20
+  raw_gold_block:                                      18
+  raw_iron_block:                                      18
+  chorus_fruit:                                        18
+  wheat:                                               18
+  popped_chorus_fruit:                                 18
+  black_candle:                                        18
+  blue_candle:                                         18
+  brown_candle:                                        18
+  candle:                                              18
+  cyan_candle:                                         18
+  gray_candle:                                         18
+  green_candle:                                        18
+  light_blue_candle:                                   18
+  light_gray_candle:                                   18
+  lime_candle:                                         18
+  magenta_candle:                                      18
+  orange_candle:                                       18
+  pink_candle:                                         18
+  purple_candle:                                       18
+  red_candle:                                          18
+  white_candle:                                        18
+  yellow_candle:                                       18
+  carrot:                                              16
+  potato:                                              16
+  nether_wart:                                         16
+  iron_ore:                                            16
+  small_amethyst_bud:                                  16
+  magma_cream:                                         16
+  wooden_pickaxe:                                      16
+  stone_pickaxe:                                       16
+  stone_axe:                                           16
+  leather_chestplate:                                  16
+  furnace:                                             16
+  tinted_glass:                                        15
+  prismarine_crystals:                                 15
+  chainmail_helmet:                                    15
+  blue_harness:                                        15
+  white_harness:                                       15
+  red_harness:                                         15
+  orange_harness:                                      15
+  yellow_harness:                                      15
+  lime_harness:                                        15
+  light_blue_harness:                                  15
+  magenta_harness:                                     15
+  cyan_harness:                                        15
+  purple_harness:                                      15
+  pink_harness:                                        15
+  light_gray_harness:                                  15
+  green_harness:                                       15
+  brown_harness:                                       15
+  gray_harness:                                        15
+  black_harness:                                       15
+  chainmail_boots:                                     15
+  golden_pickaxe:                                      15
+  golden_axe:                                          15
+  golden_carrot:                                       15
+  bucket:                                              15
+  blast_furnace:                                       15
+  brewing_stand:                                       15
+  tipped_arrow:                                        15
+  nether_wart_block:                                   14
+  leather_leggings:                                    14
+  cauldron:                                            14
+  daylight_detector:                                   14
+  stonecutter:                                         14
+  redstone_ore:                                        12
+  coal:                                                12
+  wooden_hoe:                                          12
+  wind_charge:                                         10
+  beetroot:                                            10
+  cocoa_beans:                                         10
+  prismarine_shard:                                    10
+  frogspawn:                                           10
+  leather_horse_armor:                                 10
+  iron_hoe:                                            10
+  iron_sword:                                          10
+  golden_sword:                                        10
+  crossbow:                                            10
+  wooden_sword:                                        10
+  stone_sword:                                         10
+  leather_helmet:                                      10
+  barrel:                                              10
+  cartography_table:                                   10
+  fletching_table:                                     10
+  grindstone:                                          10
+  iron_door:                                           10
+  lectern:                                             10
+  light_weighted_pressure_plate:                       10
+  obsidian:                                            10
+
+  smithing_table:                                      10
+  smoker:                                              10
+  rabbit_foot:                                         10
+  warped_fungus_on_a_stick:                            10
+  copper_golem_statue:                                 10
+  exposed_copper_golem_statue:                         10
+  weathered_copper_golem_statue:                       10
+  oxidized_copper_golem_statue:                        10
+  waxed_copper_golem_statue:                           10
+  waxed_exposed_copper_golem_statue:                   10
+  waxed_weathered_copper_golem_statue:                 10
+  waxed_oxidized_copper_golem_statue:                  10
+  potion:                                              10
+  filled_map:                                          10
+  written_book:                                        10
+  enchanted_book:                                      10
+  glass_bottle:                                        10
+  pumpkin:                                             9
+  melon:                                               9
+  acacia_hanging_sign:                                 9
+  acacia_sign:                                         9
+  bamboo_hanging_sign:                                 9
+  birch_hanging_sign:                                  9
+  birch_sign:                                          9
+  bone_block:                                          9
+  brown_mushroom_block:                                9
+  cherry_hanging_sign:                                 9
+  crimson_hanging_sign:                                9
+  crimson_sign:                                        9
+  dark_oak_hanging_sign:                               9
+  dark_oak_sign:                                       9
+  jungle_hanging_sign:                                 9
+  jungle_sign:                                         9
+  mangrove_hanging_sign:                               9
+  raw_copper_block:                                    9
+  spruce_hanging_sign:                                 9
+  spruce_sign:                                         9
+  warped_hanging_sign:                                 9
+  warped_sign:                                         9
+  copper_block:                                        9
+  slime_block:                                         9
+  sweet_berries:                                       8
+  kelp:                                                6
+  charcoal:                                            8
+  lapis_lazuli:                                        8
+  cooked_chicken:                                      8
+  emerald:                                             8
+  fishing_rod:                                         8
+  crimson_hyphae:                                      8
+  warped_hyphae:                                       8
+  dead_bush:                                           8
+  brain_coral:                                         8
+  bubble_coral:                                        8
+  fire_coral:                                          8
+  horn_coral:                                          8
+  tube_coral:                                          8
+  brain_coral_fan:                                     8
+  bubble_coral_fan:                                    8
+  fire_coral_fan:                                      8
+  horn_coral_fan:                                      8
+  tube_coral_fan:                                      8
+  dead_brain_coral:                                    8
+  dead_bubble_coral:                                   8
+  dead_fire_coral:                                     8
+  dead_horn_coral:                                     8
+  dead_tube_coral:                                     8
+  dead_brain_coral_fan:                                8
+  dead_bubble_coral_fan:                               8
+  dead_fire_coral_fan:                                 8
+  dead_horn_coral_fan:                                 8
+  dead_tube_coral_fan:                                 8
+  wooden_shovel:                                       8
+  leather_boots:                                       8
+  acacia_door:                                         8
+  bamboo_door:                                         8
+  birch_door:                                          8
+  black_concrete:                                      8
+  blue_concrete:                                       8
+  brain_coral_block:                                   8
+  brown_concrete:                                      8
+  bubble_coral_block:                                  8
+  cherry_door:                                         8
+  clay:                                                8
+  crafting_table:                                      8
+  crimson_door:                                        8
+  cyan_concrete:                                       8
+  dark_oak_door:                                       8
+  dead_brain_coral_block:                              8
+  dead_bubble_coral_block:                             8
+  dead_fire_coral_block:                               8
+  dead_horn_coral_block:                               8
+  dead_tube_coral_block:                               8
+  fire_coral_block:                                    8
+  gray_concrete:                                       8
+  green_concrete:                                      8
+  horn_coral_block:                                    8
+  jungle_door:                                         8
+  light_blue_concrete:                                 8
+  light_gray_concrete:                                 8
+  lime_concrete:                                       8
+  magenta_concrete:                                    8
+  mangrove_door:                                       8
+  mossy_cobblestone:                                   8
+  mud:                                                 8
+  oak_door:                                            8
+  orange_concrete:                                     8
+  packed_ice:                                          8
+  pale_oak_door:                                       8
+  pink_concrete:                                       8
+  pointed_dripstone:                                   8
+  polished_andesite:                                   8
+  polished_deepslate:                                  8
+  polished_diorite:                                    8
+  polished_granite:                                    8
+  purple_concrete:                                     8
+  red_concrete:                                        8
+  soul_torch:                                          8
+  spruce_door:                                         8
+  tube_coral_block:                                    8
+  warped_door:                                         8
+  white_concrete:                                      8
+  yellow_concrete:                                     8
+  dried_kelp:                                          6
+
+  bow:                                                 7
+  activator_rail:                                      7
+  exposed_cut_copper_stairs:                           7
+  oxidized_cut_copper_stairs:                          7
+  waxed_cut_copper_stairs:                             7
+  waxed_exposed_cut_copper_stairs:                     7
+  waxed_oxidized_cut_copper_stairs:                    7
+  waxed_weathered_cut_copper_stairs:                   7
+  weathered_cut_copper_stairs:                         7
+  glass:                                               6
+  feather:                                             6
+  chicken:                                             6
+  cod:                                                 6
+  rabbit:                                              6
+  salmon:                                              6
+  flint_and_steel:                                     6
+  stone_shovel:                                        6
+  bamboo_mosaic_stairs:                                6
+  black_stained_glass:                                 6
+  black_terracotta:                                    6
+  blue_stained_glass:                                  6
+  blue_terracotta:                                     6
+  brown_stained_glass:                                 6
+  brown_terracotta:                                    6
+  coarse_dirt:                                         6
+  cyan_stained_glass:                                  6
+  cyan_terracotta:                                     6
+  dripstone_block:                                     6
+  end_rod:                                             6
+  gray_stained_glass:                                  6
+  gray_terracotta:                                     6
+  green_stained_glass:                                 6
+  green_terracotta:                                    6
+  ice:                                                 6
+  light_blue_stained_glass:                            6
+  light_blue_terracotta:                               6
+  light_gray_stained_glass:                            6
+  light_gray_terracotta:                               6
+  lime_stained_glass:                                  6
+  lime_terracotta:                                     6
+  magenta_stained_glass:                               6
+  magenta_terracotta:                                  6
+  orange_stained_glass:                                6
+  orange_terracotta:                                   6
+  pink_stained_glass:                                  6
+  pink_terracotta:                                     6
+  purple_stained_glass:                                6
+  purple_terracotta:                                   6
+  red_stained_glass:                                   6
+  red_terracotta:                                      6
+  white_stained_glass:                                 6
+  white_terracotta:                                    6
+  yellow_stained_glass:                                6
+  yellow_terracotta:                                   6
+  suspicious_stew:                                     6
+  cookie:                                              6
+  iron_chain:                                          6
+  copper_chain:                                        6
+  exposed_copper_chain:                                6
+  oxidized_copper_chain:                               6
+  weathered_copper_chain:                              6
+  waxed_copper_chain:                                  6
+  waxed_exposed_copper_chain:                          6
+  waxed_oxidized_copper_chain:                         6
+  waxed_weathered_copper_chain:                        6
+  dried_ghast:                                         6
+  polished_diorite_stairs:                             6
+  twisting_vines:                                      5
+  nether_sprouts:                                      5
+  weeping_vines:                                       5
+  quartz:                                              5
+  iron_ingot:                                          5
+  brick:                                               5
+  cooked_beef:                                         5
+  pufferfish:                                          5
+  rabbit_hide:                                         5
+  phantom_membrane:                                    5
+  iron_shovel:                                         5
+  iron_pickaxe:                                        5
+  iron_spear:                                          5
+  iron_axe:                                            5
+  golden_shovel:                                       5
+  golden_hoe:                                          5
+  lead:                                                5
+  powder_snow_bucket:                                  5
+  bamboo_sign:                                         5
+  basalt:                                              5
+  bricks:                                              5
+  cherry_sign:                                         5
+  crafter:                                             5
+  cut_copper:                                          5
+  cut_copper_stairs:                                   5
+  exposed_copper:                                      5
+  exposed_cut_copper:                                  5
+  heavy_weighted_pressure_plate:                       5
+  ladder:                                              5
+  mycelium:                                            5
+  oak_hanging_sign:                                    5
+  oxidized_copper:                                     5
+  oxidized_cut_copper:                                 5
+  rooted_dirt:                                         5
+  waxed_copper_block:                                  5
+  waxed_cut_copper:                                    5
+  waxed_exposed_copper:                                5
+  waxed_exposed_cut_copper:                            5
+  waxed_oxidized_copper:                               5
+  waxed_oxidized_cut_copper:                           5
+  waxed_weathered_copper:                              5
+  waxed_weathered_cut_copper:                          5
+  weathered_copper:                                    5
+  weathered_cut_copper:                                5
+  mushroom_stew:                                       5
+  honeycomb:                                           5
+  copper_helmet:                                       5
+  copper_boots:                                        5
+  copper_leggings:                                     5
+  copper_chestplate:                                   5
+  beetroot_soup:                                       5
+  bamboo:                                              4
+  glow_berries:                                        4
+  torchflower:                                         4
+  deepslate_coal_ore:                                  4
+  lapis_ore:                                           4
+  amethyst_cluster:                                    4
+  cooked_porkchop:                                     4
+  mutton:                                              4
+  closed_eyeblossom:                                   4
+  open_eyeblossom:                                     4
+  warped_wart_block:                                   4
+  grass_block:                                         4
+  cherry_leaves:                                       4
+  mangrove_leaves:                                     4
+  mangrove_propagule:                                  4
+  shroomlight:                                         4
+  shears:                                              4
+  wooden_axe:                                          4
+  stone_hoe:                                           4
+  lily_pad:                                            4
+  acacia_button:                                       0
+  acacia_fence:                                        4
+  acacia_fence_gate:                                   4
+
+  acacia_pressure_plate:                               4
+  acacia_trapdoor:                                     4
+  andesite:                                            4
+  andesite_stairs:                                     4
+  bamboo_button:                                       0
+  bamboo_fence:                                        4
+  bamboo_fence_gate:                                   4
+
+  bamboo_stairs:                                       4
+  bamboo_trapdoor:                                     4
+  birch_button:                                        0
+  birch_fence:                                         4
+  birch_fence_gate:                                    4
+
+  birch_pressure_plate:                                4
+  birch_stairs:                                        4
+  birch_trapdoor:                                      4
+  black_concrete_powder:                               4
+  black_wool:                                          4
+  blackstone:                                          4
+  blackstone_stairs:                                   4
+  blue_concrete_powder:                                4
+  blue_wool:                                           4
+  brick_stairs:                                        4
+  brown_concrete_powder:                               4
+  brown_wool:                                          4
+  calcite:                                             4
+  campfire:                                            4
+  cherry_button:                                       0
+  cherry_fence:                                        4
+  cherry_fence_gate:                                   4
+  cherry_log:                                          4
+
+  cherry_stairs:                                       4
+  cherry_trapdoor:                                     4
+  cherry_wood:                                         4
+  chiseled_copper:                                     4
+  chiseled_deepslate:                                  4
+  chiseled_nether_bricks:                              4
+  chiseled_polished_blackstone:                        4
+  chiseled_red_sandstone:                              4
+  chiseled_resin_bricks:                               4
+  chiseled_sandstone:                                  4
+  chiseled_stone_bricks:                               4
+  chiseled_tuff:                                       4
+  chiseled_tuff_bricks:                                4
+  cobbled_deepslate:                                   4
+  cobbled_deepslate_stairs:                            4
+  cobblestone_stairs:                                  4
+  copper_door:                                         4
+  copper_grate:                                        4
+  copper_trapdoor:                                     4
+  cracked_deepslate_bricks:                            4
+  cracked_deepslate_tiles:                             4
+  cracked_nether_bricks:                               4
+  cracked_polished_blackstone_bricks:                  4
+  cracked_stone_bricks:                                4
+  crimson_button:                                      0
+  crimson_fence:                                       4
+  crimson_fence_gate:                                  4
+
+  crimson_pressure_plate:                              4
+  crimson_stairs:                                      4
+  crimson_trapdoor:                                    4
+  cut_red_sandstone:                                   4
+  cut_sandstone:                                       4
+  cyan_concrete_powder:                                4
+  cyan_wool:                                           4
+  dark_oak_button:                                     0
+  dark_oak_fence:                                      4
+  dark_oak_fence_gate:                                 4
+
+  dark_oak_pressure_plate:                             4
+  dark_oak_trapdoor:                                   4
+  dark_prismarine_stairs:                              4
+  decorated_pot:                                       4
+  deepslate:                                           4
+  deepslate_brick_stairs:                              4
+  deepslate_bricks:                                    4
+  deepslate_tile_stairs:                               4
+  deepslate_tiles:                                     4
+  diorite:                                             4
+  diorite_stairs:                                      4
+  exposed_chiseled_copper:                             4
+  exposed_copper_bulb:                                 4
+  exposed_copper_door:                                 4
+  exposed_copper_grate:                                4
+  exposed_copper_trapdoor:                             4
+  gilded_blackstone:                                   4
+  glow_lichen:                                         4
+  granite:                                             4
+  granite_stairs:                                      4
+  gray_concrete_powder:                                4
+  gray_wool:                                           4
+  green_concrete_powder:                               4
+  green_wool:                                          4
+  iron_trapdoor:                                       4
+  jungle_button:                                       0
+  jungle_fence:                                        4
+  jungle_fence_gate:                                   4
+
+  jungle_pressure_plate:                               4
+  jungle_stairs:                                       4
+  jungle_trapdoor:                                     4
+  lantern:                                             4
+  lever:                                               4
+  light_blue_concrete_powder:                          4
+  light_blue_wool:                                     4
+  light_gray_concrete_powder:                          4
+  light_gray_glazed_terracotta:                        4
+  light_gray_wool:                                     4
+  lime_concrete_powder:                                4
+  lime_wool:                                           4
+  magenta_concrete_powder:                             4
+  magenta_wool:                                        4
+  magma_block:                                         4
+  mangrove_button:                                     0
+  mangrove_fence:                                      4
+  mangrove_fence_gate:                                 4
+  mangrove_log:                                        4
+
+  mangrove_pressure_plate:                             4
+  mangrove_roots:                                      4
+  mangrove_stairs:                                     4
+  mangrove_trapdoor:                                   4
+  mangrove_wood:                                       4
+  mossy_cobblestone_stairs:                            4
+  mossy_stone_brick_stairs:                            4
+  mossy_stone_bricks:                                  4
+  mud_brick_stairs:                                    4
+  mud_bricks:                                          4
+  muddy_mangrove_roots:                                4
+  nether_brick_fence:                                  4
+  nether_brick_stairs:                                 4
+  nether_bricks:                                       4
+  oak_button:                                          0
+  oak_fence:                                           4
+  oak_fence_gate:                                      4
+
+  oak_pressure_plate:                                  4
+  oak_sign:                                            4
+  oak_stairs:                                          4
+  oak_trapdoor:                                        4
+  orange_concrete_powder:                              4
+  orange_wool:                                         4
+  oxidized_chiseled_copper:                            4
+  oxidized_copper_bulb:                                4
+  oxidized_copper_door:                                4
+  oxidized_copper_grate:                               4
+  oxidized_copper_trapdoor:                            4
+  packed_mud:                                          4
+  pale_oak_button:                                     0
+  pale_oak_fence:                                      4
+  pale_oak_fence_gate:                                 4
+  pale_oak_hanging_sign:                               4
+  pale_oak_pressure_plate:                             4
+  pale_oak_sign:                                       4
+  pale_oak_stairs:                                     4
+  pale_oak_trapdoor:                                   4
+  pink_concrete_powder:                                4
+  pink_wool:                                           4
+  pitcher_plant:                                       4
+  podzol:                                              4
+  polished_andesite_stairs:                            4
+  polished_basalt:                                     4
+  polished_blackstone:                                 4
+  polished_blackstone_brick_stairs:                    4
+  polished_blackstone_bricks:                          4
+  polished_blackstone_pressure_plate:                  4
+  polished_blackstone_stairs:                          4
+  polished_deepslate_stairs:                           4
+  polished_granite_stairs:                             4
+  polished_tuff:                                       4
+  polished_tuff_stairs:                                4
+  prismarine:                                          4
+  prismarine_brick_stairs:                             4
+  prismarine_bricks:                                   4
+  prismarine_stairs:                                   4
+  purple_concrete_powder:                              4
+  purple_wool:                                         4
+  rail:                                                4
+  red_concrete_powder:                                 4
+  red_nether_brick_stairs:                             4
+  red_nether_bricks:                                   4
+  red_sand:                                            4
+  red_wool:                                            4
+  resin_brick_stairs:                                  4
+  resin_bricks:                                        4
+  resin_clump:                                         4
+  sandstone:                                           4
+  sculk_vein:                                          4
+  smooth_basalt:                                       4
+  smooth_red_sandstone:                                4
+  smooth_red_sandstone_stairs:                         4
+  smooth_sandstone:                                    4
+  smooth_sandstone_stairs:                             4
+  smooth_stone:                                        4
+  soul_campfire:                                       4
+  soul_lantern:                                        4
+  soul_soil:                                           4
+  spruce_button:                                       0
+  spruce_fence:                                        4
+  spruce_fence_gate:                                   4
+
+  spruce_pressure_plate:                               4
+  spruce_stairs:                                       4
+  spruce_trapdoor:                                     4
+  stone:                                               4
+  stone_brick_stairs:                                  4
+  stone_bricks:                                        4
+  stone_stairs:                                        4
+  stripped_bamboo_block:                               4
+  stripped_cherry_log:                                 4
+  stripped_cherry_wood:                                4
+  stripped_mangrove_log:                               4
+  stripped_mangrove_wood:                              4
+  tuff:                                                4
+  tuff_brick_stairs:                                   4
+  tuff_bricks:                                         4
+  tuff_stairs:                                         4
+  warped_button:                                       0
+  warped_fence:                                        4
+  warped_fence_gate:                                   4
+
+  warped_pressure_plate:                               4
+  warped_stairs:                                       4
+  warped_trapdoor:                                     4
+  waxed_chiseled_copper:                               4
+  waxed_copper_bulb:                                   4
+  waxed_copper_door:                                   4
+  waxed_copper_grate:                                  4
+  waxed_copper_trapdoor:                               4
+  waxed_exposed_chiseled_copper:                       4
+  waxed_exposed_copper_bulb:                           4
+  waxed_exposed_copper_door:                           4
+  waxed_exposed_copper_grate:                          4
+  waxed_exposed_copper_trapdoor:                       4
+  waxed_oxidized_chiseled_copper:                      4
+  waxed_oxidized_copper_bulb:                          4
+  waxed_oxidized_copper_door:                          4
+  waxed_oxidized_copper_grate:                         4
+  waxed_oxidized_copper_trapdoor:                      4
+  waxed_weathered_chiseled_copper:                     4
+  waxed_weathered_copper_bulb:                         4
+  waxed_weathered_copper_door:                         4
+  waxed_weathered_copper_grate:                        4
+  waxed_weathered_copper_trapdoor:                     4
+  weathered_chiseled_copper:                           4
+  weathered_copper_bulb:                               4
+  weathered_copper_door:                               4
+  weathered_copper_grate:                              4
+  weathered_copper_trapdoor:                           4
+  white_concrete_powder:                               4
+  white_wool:                                          4
+  yellow_concrete_powder:                              4
+  yellow_wool:                                         4
+  granite_wall:                                        4
+  diorite_wall:                                        4
+  andesite_wall:                                       4
+  sandstone_wall:                                      4
+  red_sandstone_wall:                                  4
+  prismarine_wall:                                     4
+  nether_brick_wall:                                   4
+  red_nether_brick_wall:                               4
+  end_stone_brick_wall:                                4
+  blackstone_wall:                                     4
+  polished_blackstone_wall:                            4
+  polished_blackstone_brick_wall:                      4
+  cobbled_deepslate_wall:                              4
+  deepslate_brick_wall:                                4
+  deepslate_tile_wall:                                 4
+  mud_brick_wall:                                      4
+  tuff_wall:                                           4
+  tuff_brick_wall:                                     4
+  polished_tuff_wall:                                  4
+  resin_brick_wall:                                    4
+  pale_oak_shelf:                                      4
+  dark_oak_shelf:                                      4
+  acacia_shelf:                                        4
+  bamboo_shelf:                                        4
+  crimson_shelf:                                       4
+  birch_shelf:                                         4
+  spruce_shelf:                                        4
+  jungle_shelf:                                        4
+  cherry_shelf:                                        4
+  warped_shelf:                                        4
+  oak_shelf:                                           4
+  mangrove_shelf:                                      4
+  mossy_cobblestone_wall:                              4
+  mossy_stone_brick_wall:                              4
+  stone_brick_wall:                                    4
+  brick_wall:                                          4
+  polished_deepslate_wall:                             4
+  copper_lantern:                                      4
+  exposed_copper_lantern:                              4
+  weathered_copper_lantern:                            4
+  oxidized_copper_lantern:                             4
+  waxed_copper_lantern:                                4
+  waxed_exposed_copper_lantern:                        4
+  waxed_weathered_copper_lantern:                      4
+  waxed_oxidized_copper_lantern:                       4
+  dirt_path:                                           4
+  farmland:                                            4
+  acacia_log:                                          4
+  crimson_stem:                                        4
+  dark_oak_log:                                        4
+  jungle_log:                                          4
+  oak_log:                                             4
+  birch_log:                                             4
+  spruce_log:                                          4
+  stripped_acacia_log:                                 4
+  stripped_acacia_wood:                                4
+  stripped_birch_log:                                  4
+  stripped_birch_wood:                                 4
+  stripped_crimson_hyphae:                             4
+  stripped_crimson_stem:                               4
+  stripped_dark_oak_log:                               4
+  stripped_jungle_log:                                 4
+  stripped_jungle_wood:                                4
+  stripped_oak_log:                                    4
+  stripped_oak_wood:                                   4
+  stripped_spruce_log:                                 4
+  stripped_spruce_wood:                                4
+  stripped_warped_hyphae:                              4
+  stripped_warped_stem:                                4
+  warped_stem:                                         4
+  pale_oak_log:                                        4
+  pale_oak_wood:                                       4
+  stripped_dark_oak_wood:                              4
+  stripped_pale_oak_wood:                              4
+  oak_wood:                                            4
+  spruce_wood:                                         4
+  birch_wood:                                          4
+  jungle_wood:                                         4
+  acacia_wood:                                         4
+  dark_oak_wood:                                       4
+  stripped_pale_oak_log:                               4
+  torchflower_seeds:                                   3
+  spruce_sapling:                                      3
+  jungle_sapling:                                      3
+  birch_sapling:                                       3
+  oak_sapling:                                         3
+  dark_oak_sapling:                                    3
+  acacia_sapling:                                      3
+  flowering_azalea:                                    3
+  chorus_flower:                                       3
+  big_dripleaf:                                        3
+  small_dripleaf:                                      3
+  cooked_mutton:                                       3
+  bowl:                                                3
+  ochre_froglight:                                     3
+  pearlescent_froglight:                               3
+  verdant_froglight:                                   3
+  chorus_plant:                                        3
+  brush:                                               3
+  black_glazed_terracotta:                             3
+  black_stained_glass_pane:                            3
+  blue_glazed_terracotta:                              3
+  blue_stained_glass_pane:                             3
+  brown_glazed_terracotta:                             3
+  brown_stained_glass_pane:                            3
+  chiseled_quartz_block:                               3
+  cobblestone:                                         3
+  cobweb:                                              3
+  copper_bulb:                                         3
+  cyan_glazed_terracotta:                              3
+  cyan_stained_glass_pane:                             3
+  dark_prismarine:                                     3
+  glass_pane:                                          3
+  glowstone:                                           3
+  gravel:                                              3
+  gray_glazed_terracotta:                              3
+  gray_stained_glass_pane:                             3
+  green_glazed_terracotta:                             3
+  green_stained_glass_pane:                            3
+  light_blue_glazed_terracotta:                        3
+  light_blue_stained_glass_pane:                       3
+  light_gray_stained_glass_pane:                       3
+  lime_stained_glass_pane:                             3
+  magenta_glazed_terracotta:                           3
+  magenta_stained_glass_pane:                          3
+  netherrack:                                          3
+  orange_glazed_terracotta:                            3
+  orange_stained_glass_pane:                           3
+  pale_oak_leaves:                                     3
+  pale_oak_sapling:                                    3
+  pink_glazed_terracotta:                              3
+  pink_stained_glass_pane:                             3
+  purple_glazed_terracotta:                            3
+  purple_stained_glass_pane:                           3
+  purpur_block:                                        3
+  purpur_pillar:                                       3
+  purpur_stairs:                                       3
+  quartz_block:                                        3
+  quartz_stairs:                                       3
+  red_glazed_terracotta:                               3
+  red_sandstone:                                       3
+  red_stained_glass_pane:                              3
+  sand:                                                3
+  smooth_quartz_stairs:                                3
+  snow:                                                3
+  snow_block:                                          3
+  bone:                                                3
+  soul_sand:                                           3
+  white_glazed_terracotta:                             3
+  white_stained_glass_pane:                            3
+  yellow_glazed_terracotta:                            3
+  yellow_stained_glass_pane:                           3
+  flint:                                               3
+  sugar:                                               3
+  egg:                                                 3
+  brown_egg:                                           3
+  blue_egg:                                            3
+  ender_eye:                                           3
+  nether_brick:                                        3
+  gold_ingot:                                          3
+  sugar_cane:                                          3
+  cobblestone_wall:                                    3
+  infested_chiseled_stone_bricks:                      3
+  infested_stone_bricks:                               3
+  infested_cracked_stone_bricks:                       3
+  infested_stone:                                      3
+  infested_deepslate:                                  3
+  infested_mossy_stone_bricks:                         3
+  infested_cobblestone:                                3
+  suspicious_sand:                                     3
+  suspicious_gravel:                                   3
+  cut_copper_slab:                                     2
+  exposed_cut_copper_slab:                             2
+  oxidized_cut_copper_slab:                            2
+  weathered_cut_copper_slab:                           2
+  acacia_slab:                                         2
+  andesite_slab:                                       2
+  bamboo_mosaic_slab:                                  2
+  bamboo_slab:                                         2
+  blackstone_slab:                                     2
+  brick_slab:                                          2
+  cherry_slab:                                         2
+  cobbled_deepslate_slab:                              2
+  crimson_slab:                                        2
+  cut_red_sandstone_slab:                              2
+  cut_sandstone_slab:                                  2
+  dark_prismarine_slab:                                2
+  deepslate_brick_slab:                                2
+  deepslate_tile_slab:                                 2
+  diorite_slab:                                        2
+  granite_slab:                                        2
+  jungle_slab:                                         2
+  mangrove_slab:                                       2
+  mossy_cobblestone_slab:                              2
+  mossy_stone_brick_slab:                              2
+  mud_brick_slab:                                      2
+  nether_brick_slab:                                   2
+  oak_slab:                                            2
+  dark_oak_slab:                                       2
+  pale_oak_slab:                                       2
+  polished_andesite_slab:                              2
+  polished_blackstone_brick_slab:                      2
+  polished_blackstone_slab:                            2
+  polished_deepslate_slab:                             2
+  polished_diorite_slab:                               2
+  polished_granite_slab:                               2
+  polished_tuff_slab:                                  2
+  prismarine_brick_slab:                               2
+  prismarine_slab:                                     2
+  red_nether_brick_slab:                               2
+  red_sandstone_slab:                                  2
+  resin_brick_slab:                                    2
+  sandstone_slab:                                      2
+  smooth_red_sandstone_slab:                           2
+  smooth_sandstone_slab:                               2
+  smooth_stone_slab:                                   2
+  spruce_slab:                                         2
+  stone_brick_slab:                                    2
+  stone_slab:                                          2
+  tuff_brick_slab:                                     2
+  tuff_slab:                                           2
+  warped_slab:                                         2
+  waxed_cut_copper_slab:                               2
+  waxed_exposed_cut_copper_slab:                       2
+  waxed_oxidized_cut_copper_slab:                      2
+  waxed_weathered_cut_copper_slab:                     2
+  sea_pickle:                                          2
+  wheat_seeds:                                         2
+  beetroot_seeds:                                      2
+  crimson_fungus:                                      2
+  warped_fungus:                                       2
+  apple:                                               2
+  hanging_roots:                                       2
+  clay_ball:                                           2
+  cooked_cod:                                          2
+  cooked_salmon:                                       2
+  seagrass:                                            2
+  ender_pearl:                                         2
+  blaze_rod:                                           2
+  oak_leaves:                                          2
+  spruce_leaves:                                       2
+  birch_leaves:                                        2
+  jungle_leaves:                                       2
+  acacia_leaves:                                       2
+  dark_oak_leaves:                                     2
+  pink_petals:                                         2
+  azalea_leaves:                                       2
+  flowering_azalea_leaves:                             2
+  large_fern:                                          2
+  acacia_stairs:                                       2
+  black_carpet:                                        2
+  blue_carpet:                                         2
+  brown_carpet:                                        2
+  cobblestone_slab:                                    2
+  cyan_carpet:                                         2
+  dark_oak_stairs:                                     2
+  flower_pot:                                          2
+  gray_carpet:                                         2
+  green_carpet:                                        2
+  light_blue_carpet:                                   2
+  light_gray_carpet:                                   2
+  lime_carpet:                                         2
+  magenta_carpet:                                      2
+  moss_block:                                          2
+  mushroom_stem:                                       2
+  orange_carpet:                                       2
+  pale_moss_block:                                     2
+  pink_carpet:                                         2
+  purple_carpet:                                       2
+  quartz_bricks:                                       2
+  quartz_pillar:                                       2
+  red_carpet:                                          2
+  red_mushroom_block:                                  2
+  red_sandstone_stairs:                                2
+  sandstone_stairs:                                    2
+  smooth_quartz:                                       2
+  smooth_quartz_slab:                                  2
+  stone_button:                                        0
+  stone_pressure_plate:                                2
+  terracotta:                                          2
+  torch:                                               2
+  white_carpet:                                        2
+  yellow_carpet:                                       2
+  glistering_melon_slice:                              2
+  spectral_arrow:                                      2
+  stick:                                               2
+  paper:                                               2
+  raw_iron:                                            2
+  raw_gold:                                            2
+  bamboo_pressure_plate:                               2
+  cherry_pressure_plate:                               2
+  pale_oak_boat:                                       2
+  dark_oak_boat:                                       2
+  mangrove_boat:                                       2
+  acacia_boat:                                         2
+  spruce_boat:                                         2
+  birch_boat:                                          2
+  jungle_boat:                                         2
+  cherry_boat:                                         2
+  oak_boat:                                            2
+  bamboo_raft:                                         2
+  petrified_oak_slab:                                  2
+  birch_slab:                                          2
+  copper_torch:                                        2
+  pitcher_pod:                                         2
+  raw_copper:                                          1
+  slime_ball:                                          1
+  copper_ingot:                                        1
+  melon_slice:                                         1
+  arrow:                                               1
+  red_mushroom:                                        1
+  brown_mushroom:                                      1
+  bone_meal:                                           1
+  dirt:                                                1
+  wooden_spear:                                        1
+  stone_spear:                                         1
+  cherry_sapling:                                      1
+  crimson_roots:                                       1
+  warped_roots:                                        1
+  azalea:                                              1
+  tall_grass:                                          1
+  glowstone_dust:                                      1
+  beef:                                                1
+  tropical_fish:                                       1
+  rotten_flesh:                                        1
+  poppy:                                               1
+  gunpowder:                                           1
+  fern:                                                1
+  dandelion:                                           1
+  blue_orchid:                                         1
+  allium:                                              1
+  azure_bluet:                                         1
+  red_tulip:                                           1
+  spider_eye:                                          1
+  orange_tulip:                                        1
+  white_tulip:                                         1
+  pink_tulip:                                          1
+  oxeye_daisy:                                         1
+  cornflower:                                          1
+  lily_of_the_valley:                                  1
+  sunflower:                                           1
+  lilac:                                               1
+  rose_bush:                                           1
+  peony:                                               1
+  blue_dye:                                            1
+  brown_dye:                                           1
+  light_blue_dye:                                      1
+  gray_dye:                                            1
+  cyan_dye:                                            1
+  green_dye:                                           1
+  light_gray_dye:                                      1
+  yellow_dye:                                          1
+  white_dye:                                           1
+  red_dye:                                             1
+  purple_dye:                                          1
+  pink_dye:                                            1
+  orange_dye:                                          1
+  magenta_dye:                                         1
+  lime_dye:                                            1
+  spore_blossom:                                       1
+  bamboo_mosaic:                                       1
+  crimson_nylium:                                      1
+  end_stone:                                           1
+  end_stone_brick_slab:                                1
+  end_stone_brick_stairs:                              1
+  end_stone_bricks:                                    1
+  iron_bars:                                           1
+  lime_glazed_terracotta:                              1
+  mangrove_sign:                                       1
+  moss_carpet:                                         1
+  pale_hanging_moss:                                   1
+  pale_moss_carpet:                                    1
+  purpur_slab:                                         1
+  quartz_slab:                                         1
+  scaffolding:                                         1
+  sculk_shrieker:                                      1
+  sculk:                                               1
+  sculk_catalyst:                                      1
+  short_grass:                                         1
+  tripwire_hook:                                       1
+  warped_nylium:                                       1
+  blaze_powder:                                        1
+  copper_shovel:                                       1
+  copper_pickaxe:                                      1
+  copper_axe:                                          1
+  copper_hoe:                                          1
+  copper_sword:                                        1
+  copper_spear:                                        1
+  porkchop:                                            1
+  copper_bars:                                         1
+  exposed_copper_bars:                                 1
+  weathered_copper_bars:                               1
+  oxidized_copper_bars:                                1
+  waxed_copper_bars:                                   1
+  waxed_exposed_copper_bars:                           1
+  waxed_weathered_copper_bars:                         1
+  waxed_oxidized_copper_bars:                          1
+  short_dry_grass:                                     1
+  tall_dry_grass:                                      1
+  leaf_litter:                                         1
+  wildflowers:                                         1
+  firefly_bush:                                        1
+  bush:                                                1
+  cactus_flower:                                       1
+  golden_dandelion:                                    1
+  pumpkin_seeds:                                       1
+  pale_oak_planks:                                     1
+  acacia_planks:                                       1
+  bamboo_planks:                                       1
+  birch_planks:                                        1
+  cherry_planks:                                       1
+  crimson_planks:                                      1
+  dark_oak_planks:                                     1
+  jungle_planks:                                       1
+  mangrove_planks:                                     1
+  oak_planks:                                          1
+  spruce_planks:                                       1
+  warped_planks:                                       1
+  melon_seeds:                                         0
+  iron_nugget:                                         0
+  gold_nugget:                                         0
+  string:                                              0
+  composter:                                           0
+  snowball:                                            0
+  polished_blackstone_button:                          0
+  copper_nugget:                                       0
+
+# Enchanted books — format: enchantment_name:level
+enchanted-books:
+  "sharpness:5":
+    display: "§fEnchanted Book (Sharpness V)"
+    price: 1500
+  "efficiency:5":
+    display: "§fEnchanted Book (Efficiency V)"
+    price: 1500
+  "sharpness:4":
+    display: "§fEnchanted Book (Sharpness IV)"
+    price: 1200
+  "efficiency:4":
+    display: "§fEnchanted Book (Efficiency IV)"
+    price: 1200
+  "sharpness:3":
+    display: "§fEnchanted Book (Sharpness III)"
+    price: 900
+  "efficiency:3":
+    display: "§fEnchanted Book (Efficiency III)"
+    price: 900
+  "protection:4":
+    display: "§fEnchanted Book (Protection IV)"
+    price: 800
+  "blast_protection:4":
+    display: "§fEnchanted Book (Blast Protection IV)"
+    price: 800
+  "power:5":
+    display: "§fEnchanted Book (Power V)"
+    price: 750
+  "protection:3":
+    display: "§fEnchanted Book (Protection III)"
+    price: 600
+  "power:4":
+    display: "§fEnchanted Book (Power IV)"
+    price: 600
+  "blast_protection:3":
+    display: "§fEnchanted Book (Blast Protection III)"
+    price: 600
+  "sharpness:2":
+    display: "§fEnchanted Book (Sharpness II)"
+    price: 600
+  "efficiency:2":
+    display: "§fEnchanted Book (Efficiency II)"
+    price: 600
+  "unbreaking:3":
+    display: "§fEnchanted Book (Unbreaking III)"
+    price: 600
+  "impaling:5":
+    display: "§fEnchanted Book (Impaling V)"
+    price: 500
+  "power:3":
+    display: "§fEnchanted Book (Power III)"
+    price: 450
+  "feather_falling:4":
+    display: "§fEnchanted Book (Feather Falling IV)"
+    price: 400
+  "impaling:4":
+    display: "§fEnchanted Book (Impaling IV)"
+    price: 400
+  "protection:2":
+    display: "§fEnchanted Book (Protection II)"
+    price: 400
+  "fire_protection:4":
+    display: "§fEnchanted Book (Fire Protection IV)"
+    price: 400
+  "projectile_protection:4":
+    display: "§fEnchanted Book (Projectile Protection IV)"
+    price: 400
+  "piercing:4":
+    display: "§fEnchanted Book (Piercing IV)"
+    price: 400
+  "blast_protection:2":
+    display: "§fEnchanted Book (Blast Protection II)"
+    price: 400
+  "unbreaking:2":
+    display: "§fEnchanted Book (Unbreaking II)"
+    price: 400
+  "feather_falling:3":
+    display: "§fEnchanted Book (Feather Falling III)"
+    price: 300
+  "impaling:3":
+    display: "§fEnchanted Book (Impaling III)"
+    price: 300
+  "depth_strider:3":
+    display: "§fEnchanted Book (Depth Strider III)"
+    price: 300
+  "loyalty:3":
+    display: "§fEnchanted Book (Loyalty III)"
+    price: 300
+  "fire_protection:3":
+    display: "§fEnchanted Book (Fire Protection III)"
+    price: 300
+  "projectile_protection:3":
+    display: "§fEnchanted Book (Projectile Protection III)"
+    price: 300
+  "piercing:3":
+    display: "§fEnchanted Book (Piercing III)"
+    price: 300
+  "riptide:3":
+    display: "§fEnchanted Book (Riptide III)"
+    price: 300
+  "power:2":
+    display: "§fEnchanted Book (Power II)"
+    price: 300
+  "respiration:3":
+    display: "§fEnchanted Book (Respiration III)"
+    price: 300
+  "thorns:3":
+    display: "§fEnchanted Book (Thorns III)"
+    price: 300
+  "sharpness:1":
+    display: "§fEnchanted Book (Sharpness I)"
+    price: 300
+  "efficiency:1":
+    display: "§fEnchanted Book (Efficiency I)"
+    price: 300
+  "fortune:3":
+    display: "§fEnchanted Book (Fortune III)"
+    price: 300
+  "bane_of_arthropods:5":
+    display: "§fEnchanted Book (Bane of Arthropods V)"
+    price: 250
+  "smite:5":
+    display: "§fEnchanted Book (Smite V)"
+    price: 250
+  "feather_falling:2":
+    display: "§fEnchanted Book (Feather Falling II)"
+    price: 200
+  "impaling:2":
+    display: "§fEnchanted Book (Impaling II)"
+    price: 200
+  "protection:1":
+    display: "§fEnchanted Book (Protection I)"
+    price: 200
+  "depth_strider:2":
+    display: "§fEnchanted Book (Depth Strider II)"
+    price: 200
+  "loyalty:2":
+    display: "§fEnchanted Book (Loyalty II)"
+    price: 200
+  "fire_protection:2":
+    display: "§fEnchanted Book (Fire Protection II)"
+    price: 200
+  "bane_of_arthropods:4":
+    display: "§fEnchanted Book (Bane of Arthropods IV)"
+    price: 200
+  "projectile_protection:2":
+    display: "§fEnchanted Book (Projectile Protection II)"
+    price: 200
+  "smite:4":
+    display: "§fEnchanted Book (Smite IV)"
+    price: 200
+  "piercing:2":
+    display: "§fEnchanted Book (Piercing II)"
+    price: 200
+  "riptide:2":
+    display: "§fEnchanted Book (Riptide II)"
+    price: 200
+  "blast_protection:1":
+    display: "§fEnchanted Book (Blast Protection I)"
+    price: 200
+  "mending:1":
+    display: "§fEnchanted Book (Mending)"
+    price: 200
+  "respiration:2":
+    display: "§fEnchanted Book (Respiration II)"
+    price: 200
+  "thorns:2":
+    display: "§fEnchanted Book (Thorns II)"
+    price: 200
+  "punch:2":
+    display: "§fEnchanted Book (Punch II)"
+    price: 200
+  "fortune:2":
+    display: "§fEnchanted Book (Fortune II)"
+    price: 200
+  "unbreaking:1":
+    display: "§fEnchanted Book (Unbreaking I)"
+    price: 200
+  "swift_sneak:3":
+    display: "§fEnchanted Book (Swift Sneak III)"
+    price: 150
+  "luck_of_the_sea:3":
+    display: "§fEnchanted Book (Luck of the Sea III)"
+    price: 150
+  "silk_touch:1":
+    display: "§fEnchanted Book (Silk Touch)"
+    price: 150
+  "quick_charge:3":
+    display: "§fEnchanted Book (Quick Charge III)"
+    price: 150
+  "bane_of_arthropods:3":
+    display: "§fEnchanted Book (Bane of Arthropods III)"
+    price: 150
+  "soul_speed:3":
+    display: "§fEnchanted Book (Soul Speed III)"
+    price: 150
+  "looting:3":
+    display: "§fEnchanted Book (Looting III)"
+    price: 150
+  "smite:3":
+    display: "§fEnchanted Book (Smite III)"
+    price: 150
+  "lure:3":
+    display: "§fEnchanted Book (Lure III)"
+    price: 150
+  "power:1":
+    display: "§fEnchanted Book (Power I)"
+    price: 150
+  "sweeping_edge:3":
+    display: "§fEnchanted Book (Sweeping Edge III)"
+    price: 150
+  "swift_sneak:2":
+    display: "§fEnchanted Book (Swift Sneak II)"
+    price: 100
+  "feather_falling:1":
+    display: "§fEnchanted Book (Feather Falling I)"
+    price: 100
+  "infinity:1":
+    display: "§fEnchanted Book (Infinity)"
+    price: 100
+  "flame:1":
+    display: "§fEnchanted Book (Flame)"
+    price: 100
+  "impaling:1":
+    display: "§fEnchanted Book (Impaling I)"
+    price: 100
+  "knockback:2":
+    display: "§fEnchanted Book (Knockback II)"
+    price: 100
+  "depth_strider:1":
+    display: "§fEnchanted Book (Depth Strider I)"
+    price: 100
+  "luck_of_the_sea:2":
+    display: "§fEnchanted Book (Luck of the Sea II)"
+    price: 100
+  "loyalty:1":
+    display: "§fEnchanted Book (Loyalty I)"
+    price: 100
+  "fire_protection:1":
+    display: "§fEnchanted Book (Fire Protection I)"
+    price: 100
+  "channeling:1":
+    display: "§fEnchanted Book (Channeling)"
+    price: 100
+  "quick_charge:2":
+    display: "§fEnchanted Book (Quick Charge II)"
+    price: 100
+  "bane_of_arthropods:2":
+    display: "§fEnchanted Book (Bane of Arthropods II)"
+    price: 100
+  "frost_walker:2":
+    display: "§fEnchanted Book (Frost Walker II)"
+    price: 100
+  "projectile_protection:1":
+    display: "§fEnchanted Book (Projectile Protection I)"
+    price: 100
+  "aqua_affinity:1":
+    display: "§fEnchanted Book (Aqua Affinity)"
+    price: 100
+  "soul_speed:2":
+    display: "§fEnchanted Book (Soul Speed II)"
+    price: 100
+  "looting:2":
+    display: "§fEnchanted Book (Looting II)"
+    price: 100
+  "smite:2":
+    display: "§fEnchanted Book (Smite II)"
+    price: 100
+  "piercing:1":
+    display: "§fEnchanted Book (Piercing I)"
+    price: 100
+  "lure:2":
+    display: "§fEnchanted Book (Lure II)"
+    price: 100
+  "riptide:1":
+    display: "§fEnchanted Book (Riptide I)"
+    price: 100
+  "fire_aspect:2":
+    display: "§fEnchanted Book (Fire Aspect II)"
+    price: 100
+  "respiration:1":
+    display: "§fEnchanted Book (Respiration I)"
+    price: 100
+  "thorns:1":
+    display: "§fEnchanted Book (Thorns I)"
+    price: 100
+  "sweeping_edge:2":
+    display: "§fEnchanted Book (Sweeping Edge II)"
+    price: 100
+  "punch:1":
+    display: "§fEnchanted Book (Punch I)"
+    price: 100
+  "fortune:1":
+    display: "§fEnchanted Book (Fortune I)"
+    price: 100
+  "swift_sneak:1":
+    display: "§fEnchanted Book (Swift Sneak I)"
+    price: 50
+  "knockback:1":
+    display: "§fEnchanted Book (Knockback I)"
+    price: 50
+  "luck_of_the_sea:1":
+    display: "§fEnchanted Book (Luck of the Sea I)"
+    price: 50
+  "quick_charge:1":
+    display: "§fEnchanted Book (Quick Charge I)"
+    price: 50
+  "bane_of_arthropods:1":
+    display: "§fEnchanted Book (Bane of Arthropods I)"
+    price: 50
+  "frost_walker:1":
+    display: "§fEnchanted Book (Frost Walker I)"
+    price: 50
+  "multishot:1":
+    display: "§fEnchanted Book (Multishot)"
+    price: 50
+  "soul_speed:1":
+    display: "§fEnchanted Book (Soul Speed I)"
+    price: 50
+  "looting:1":
+    display: "§fEnchanted Book (Looting I)"
+    price: 50
+  "smite:1":
+    display: "§fEnchanted Book (Smite I)"
+    price: 50
+  "lure:1":
+    display: "§fEnchanted Book (Lure I)"
+    price: 50
+  "fire_aspect:1":
+    display: "§fEnchanted Book (Fire Aspect I)"
+    price: 50
+  "sweeping_edge:1":
+    display: "§fEnchanted Book (Sweeping Edge I)"
+    price: 50
