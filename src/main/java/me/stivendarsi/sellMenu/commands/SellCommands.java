@@ -10,6 +10,9 @@ import me.stivendarsi.sellMenu.menu.SellingMenu;
 import me.stivendarsi.sellMenu.menu.WorthBrowser;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;
+import net.kyori.adventure.text.minimessage.tag.Tag;
+import net.kyori.adventure.text.minimessage.tag.resolver.TagResolver;
+import net.kyori.adventure.title.Title;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -68,31 +71,40 @@ public class SellCommands {
     }
 
     public static int openValueBrowser(CommandContext<CommandSourceStack> context) {
-
         if (!(context.getSource().getExecutor() instanceof Player player)) return 0;
 
-        WorthBrowser worthBrowser = new WorthBrowser(player);
-        player.showDialog(worthBrowser.getDialog());
+        player.sendRichMessage("<yellow>טוען... זה עלול לקחת כמה רגעים</yellow>");
+
+        sellMenuInstance().getServer().getAsyncScheduler().runNow(sellMenuInstance(), scheduledTask -> {
+
+            WorthBrowser worthBrowser = new WorthBrowser(player);
+            player.showDialog(worthBrowser.getDialog(""));
+
+        });
+
         return 1;
     }
 
     public static int getItemValue(CommandContext<CommandSourceStack> context) {
         if (!(context.getSource().getExecutor() instanceof Player player)) return 0;
         ItemStack itemStack = player.getInventory().getItemInMainHand();
-        int value = mainHandler().getMoneyHandler().getItemValue(itemStack);
+
 
         OrbitData currentOrbit = Orbit.mainHandler().orbitHandler().getCurrentOrbit();
         if (currentOrbit == null) return 0;
 
         double multiplier = mainHandler().getMoneyHandler().getUserMultiplier(player.getUniqueId(), currentOrbit.identifier());
+        int value = (int) (mainHandler().getMoneyHandler().valueOfItemStack(itemStack) * multiplier);
 
+        TagResolver moneyResolver = TagResolver.builder()
+                .tag("value", Tag.preProcessParsed(mainHandler().getMoneyHandler().format(value)))
+                .tag("multiplier", Tag.preProcessParsed(String.valueOf(multiplier)))
+                .build();
 
-
-        int valueMultiplied = (int) (value * multiplier);
-
-        Component msg = MiniMessage.miniMessage().deserialize("<white>value<dark_gray>:</dark_gray> " + mainHandler().getMoneyHandler().format(value) + "<newline><white>value<dark_gray>:</dark_gray> <cut_money_gold:" + mainHandler().getMoneyHandler().format(valueMultiplied) + ">", player, MiniPlaceholders.audienceGlobalPlaceholders());
-
-        player.sendMessage(msg);
+        String text = "<cut_tigeril_gold:שווי ביד><gray> (x<multiplier>):</gray> <cut_money_green:<value>>";
+        Component msg = MiniMessage.miniMessage().deserialize(text, player, moneyResolver, MiniPlaceholders.audienceGlobalPlaceholders());
+        player.sendActionBar(msg);
+        player.playSound(Constants.pingSound);
         return 1;
     }
 

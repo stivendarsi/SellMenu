@@ -1,6 +1,9 @@
 package me.stivendarsi.sellMenu;
 
 import com.google.common.base.Preconditions;
+import io.papermc.paper.datacomponent.DataComponentTypes;
+import io.papermc.paper.datacomponent.item.BundleContents;
+import io.papermc.paper.datacomponent.item.ItemContainerContents;
 import net.kyori.adventure.key.Key;
 import net.luckperms.api.model.user.User;
 import net.luckperms.api.node.NodeType;
@@ -17,13 +20,13 @@ import org.jetbrains.annotations.Nullable;
 import java.text.NumberFormat;
 import java.util.*;
 
-import static me.stivendarsi.sellMenu.SellMenu.luckPerms;
-import static me.stivendarsi.sellMenu.SellMenu.sellMenuInstance;
+import static me.stivendarsi.sellMenu.SellMenu.*;
 import static org.bukkit.Bukkit.getServer;
 
+@SuppressWarnings("UnstableApiUsage")
 public class MoneyHandler {
     private Map<ItemType, Integer> valueMap;
-    private  List<Map.Entry<ItemType, Integer>> sorted;
+    private  List<Map.Entry<ItemStack, Integer>> sorted;
 
     private Economy econ;
 
@@ -40,6 +43,37 @@ public class MoneyHandler {
         NumberFormat currency = NumberFormat.getCurrencyInstance(israel);
         currency.setMaximumFractionDigits(0);
         return currency.format(moneyAmount);
+    }
+
+
+
+    public int valueOfItemStack(ItemStack content){
+        if (content == null) return 0;
+        int valuesSum = 0;
+        if (content.hasData(DataComponentTypes.CONTAINER)) {
+            ItemContainerContents contents = content.getData(DataComponentTypes.CONTAINER);
+            if (contents != null) valuesSum += sumOfValues(contents.contents());
+        }
+
+        if (content.hasData(DataComponentTypes.BUNDLE_CONTENTS)) {
+            BundleContents bundleContents = content.getData(DataComponentTypes.BUNDLE_CONTENTS);
+            if (bundleContents != null) valuesSum += sumOfValues(bundleContents.contents());
+        }
+
+        int value = mainHandler().getMoneyHandler().getItemValue(content) * content.getAmount();
+        return valuesSum + value;
+    }
+
+    public int sumOfValues(@Nullable List<ItemStack> stacks){
+        if (stacks == null) return 0;
+        int sum = 0;
+
+        for (ItemStack content : stacks) {
+            if (content == null) continue;
+            sum += getItemValue(content);
+        }
+
+        return sum;
     }
 
 
@@ -63,8 +97,9 @@ public class MoneyHandler {
             sellMenuInstance().getLogger().warning("Missing Item: " + itemType.getKey());
         }
 
-        this.sorted = this.valueMap.entrySet().stream()
-                .sorted(Map.Entry.<ItemType, Integer>comparingByValue().reversed()) // highest first
+        this.sorted = valueMap.entrySet().stream()
+                .map(entry -> Map.entry(entry.getKey().createItemStack(), entry.getValue()))
+                .sorted(Map.Entry.<ItemStack, Integer>comparingByValue().reversed())
                 .toList();
 
     }
@@ -96,7 +131,7 @@ public class MoneyHandler {
         luckPerms().getUserManager().saveUser(user);
     }
 
-    public int getItemValue(ItemStack itemStack) {
+    private int getItemValue(ItemStack itemStack) {
         return this.valueMap.getOrDefault(itemStack.getType().asItemType(), 0);
     }
 
@@ -138,7 +173,7 @@ public class MoneyHandler {
         econ = rsp.getProvider();
     }
 
-    public List<Map.Entry<ItemType, Integer>> getSorted() {
+    public List<Map.Entry<ItemStack, Integer>> getSorted() {
         return sorted;
     }
 

@@ -2,89 +2,113 @@ package me.stivendarsi.sellMenu.menu;
 
 import io.github.miniplaceholders.api.MiniPlaceholders;
 import io.papermc.paper.dialog.Dialog;
+import io.papermc.paper.registry.data.dialog.ActionButton;
 import io.papermc.paper.registry.data.dialog.DialogBase;
+import io.papermc.paper.registry.data.dialog.action.DialogAction;
 import io.papermc.paper.registry.data.dialog.body.DialogBody;
 import io.papermc.paper.registry.data.dialog.body.PlainMessageDialogBody;
+import io.papermc.paper.registry.data.dialog.input.DialogInput;
 import io.papermc.paper.registry.data.dialog.type.DialogType;
+import me.stivendarsi.orbit.Constants;
 import me.stivendarsi.orbit.Orbit;
 import me.stivendarsi.orbit.orbit.data.OrbitData;
 import net.kyori.adventure.text.Component;
+import net.kyori.adventure.text.event.ClickCallback;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import net.kyori.adventure.text.minimessage.tag.Tag;
 import net.kyori.adventure.text.minimessage.tag.resolver.TagResolver;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.ItemType;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 import static me.stivendarsi.sellMenu.SellMenu.mainHandler;
 
+@SuppressWarnings("UnstableApiUsage")
 public class WorthBrowser {
+
     private final UUID userUUID;
-    private final Player viewer;
+    private static final String template = """
+                <cut_tigeril_gold:'פריט'><gray>:</gray> <item_display_name>
+                <cut_tigeril_gold:'שווי'><gray>:</gray> <cut_money_green:'<price>'>
+                <cut_tigeril_gold:'לאחר הכפלה'> <gray>(x<multiplier>):</gray> <cut_money_green:'<price_multiplied>'>
+                """;
+    private static final MiniMessage mm = MiniMessage.miniMessage();
 
     public WorthBrowser(Player viewer) {
         this.userUUID = viewer.getUniqueId();
-        this.viewer = viewer;
     }
 
-    public Dialog getDialog() {
+    public Dialog getDialog(String nameRegex) {
         return Dialog.create(builder -> {
-            builder.empty().type(DialogType.notice())
-                    .base(getBase());
+            List<ActionButton> actionButtons = new ArrayList<>();
+            ActionButton searchButton = ActionButton.builder(MiniMessage.miniMessage().deserialize("חפש"))
+                    .action(DialogAction.customClick((response, audience) -> {
+                        String prefix = response.getText("sell_search");
+                        audience.showDialog(getDialog(prefix));
+                    }, ClickCallback.Options.builder().build()))
+                    .build();
+
+            actionButtons.add(searchButton);
+
+            ActionButton exist = ActionButton.builder(MiniMessage.miniMessage().deserialize("<red>יציאה</red>")).build();
+
+            builder.empty().type(DialogType.multiAction(actionButtons).exitAction(exist).build())
+                    .base(getBase(nameRegex));
         });
     }
 
-    private DialogBase getBase() {
+    private DialogBase getBase(String nameRegex) {
         OrbitData orbitData = Orbit.mainHandler().orbitHandler().getCurrentOrbit();
         if (orbitData == null) throw new RuntimeException("Null orbit");
 
         double multiplier = mainHandler().getMoneyHandler().getUserMultiplier(userUUID, orbitData.identifier());
 
-        List<DialogBody> itemValues = getBodies(multiplier);
+        List<DialogBody> itemValues = getBodies(multiplier, nameRegex);
 
-        return DialogBase.builder(Component.text("מחירים")).body(itemValues).build();
+        List<DialogInput> dialogInputs = new ArrayList<>();
+
+        DialogInput search = DialogInput.text("sell_search", Constants.color("<gray>חיפוש</gray>")).initial(nameRegex).build();
+        dialogInputs.add(search);
+
+        return DialogBase.builder(Component.text("מחירים")).inputs(dialogInputs).body(itemValues).afterAction(DialogBase.DialogAfterAction.NONE).pause(false).build();
     }
 
-    private List<DialogBody> getBodies(double multiplier){
+    private List<DialogBody> getBodies(double multiplier, String prefix) {
         List<DialogBody> dialogBodies = new LinkedList<>();
-        List<Map.Entry<ItemType, Integer>> entries = mainHandler().getMoneyHandler().getSorted();
-        for (Map.Entry<ItemType, Integer> entry : entries) {
-            int value = entry.getValue();
-            ItemType itemType = entry.getKey();
+        List<Map.Entry<ItemStack, Integer>> entries = mainHandler().getMoneyHandler().getSorted();
 
-            DialogBody dialogBody = getItemStackBody(itemType, value, multiplier);
-            dialogBodies.add(dialogBody);
+        Player viewer = Bukkit.getPlayer(userUUID);
+        if (viewer == null) return dialogBodies;
+
+        for (Map.Entry<ItemStack, Integer> entry : entries) {
+            int value = entry.getValue();
+            ItemStack itemStack = entry.getKey();
+            String name = itemStack.getType().asItemType().key().value().toLowerCase(Locale.ROOT);
+
+            if (name.startsWith(prefix)) {
+                DialogBody dialogBody = getItemStackBody(viewer, itemStack, value, multiplier);
+                dialogBodies.add(dialogBody);
+            }
         }
         return dialogBodies;
     }
 
-    private DialogBody getItemStackBody(ItemType itemType, int value, double userMultiplier) {
-        ItemStack itemStack = itemType.createItemStack();
-
+    private DialogBody getItemStackBody(Player viewer, ItemStack itemStack, int value, double userMultiplier) {
         TagResolver resolver = TagResolver.builder()
                 .tag("item_display_name", Tag.selfClosingInserting(itemStack.effectiveName()))
                 .tag("price", Tag.preProcessParsed(mainHandler().getMoneyHandler().format(value)))
                 .tag("price_multiplied", Tag.preProcessParsed(mainHandler().getMoneyHandler().format(value * userMultiplier)))
-                .tag("multiplier", Tag.preProcessParsed("x" + userMultiplier))
+                .tag("multiplier", Tag.preProcessParsed(String.valueOf(userMultiplier)))
                 .build();
 
-        String s = """
-                <gray>פריט: <item_display_name>
-                <gray>שווי: <white><price>
-                <gray>שווי לאחר הכפלה (<multiplier>): <cut_money_green:'<price_multiplied>'>
-                """;
 
-        PlainMessageDialogBody msg = DialogBody
-                .plainMessage(
-                        MiniMessage.miniMessage().deserialize(s, this.viewer, resolver, MiniPlaceholders.audienceGlobalPlaceholders()),
-                        150
-                );
-        DialogBody dialogBody = DialogBody.item(itemStack).description(msg).build();
-        return dialogBody;
+        PlainMessageDialogBody msg = DialogBody.plainMessage(
+                        mm.deserialize(template, viewer, resolver, MiniPlaceholders.audienceGlobalPlaceholders()),
+                        170
+        );
+
+        return DialogBody.item(itemStack).description(msg).build();
     }
 }

@@ -2,12 +2,12 @@ messages:
   received: "<cut_money_green:קיבלת <amount>>"
 
 items:
-  dragon_egg:                                          500000
-  netherite_block:                                     225000
-  elytra:                                              30000
-  netherite_ingot:                                     25000
-  trident:                                             10000
-  beacon:                                              7500
+  dragon_egg:                                          0
+  netherite_block:                                     15000
+  elytra:                                              10000
+  netherite_ingot:                                     1500
+  trident:                                             7500
+  beacon:                                              5000
   nether_star:                                         4000
   enchanted_golden_apple:                              2000
   netherite_chestplate:                                1400
@@ -24,10 +24,10 @@ items:
   skeleton_skull:                                      1000
   wither_skeleton_skull:                               1000
   zombie_head:                                         1000
-  ancient_debris:                                      600
-  netherite_scrap:                                     600
+  ancient_debris:                                      300
+  netherite_scrap:                                     300
   conduit:                                             550
-  diamond_horse_armor:                                 500
+  diamond_horse_armor:                                 50
   enchanting_table:                                    500
   music_disc_11:                                       500
   music_disc_13:                                       500
@@ -88,7 +88,7 @@ items:
   amethyst_block:                                      200
   map:                                                 190
   cake:                                                180
-  deepslate_diamond_ore:                               180
+  deepslate_diamond_ore:                               100
   hay_block:                                           170
   writable_book:                                       156
   axolotl_bucket:                                      100
@@ -98,7 +98,7 @@ items:
   bookshelf:                                           100
   cod_bucket:                                          150
   creaking_heart:                                      100
-  diamond_ore:                                         100
+  diamond_ore:                                         50
   ender_chest:                                         150
   iron_horse_armor:                                    100
   jukebox:                                             100
@@ -109,7 +109,7 @@ items:
   salmon_bucket:                                       150
   sticky_piston:                                       100
   tropical_fish_bucket:                                150
-  glow_ink_sac:                                        150
+  glow_ink_sac:                                        20
   goat_horn:                                           150
   nautilus_shell:                                      100
   trial_key:                                           150
@@ -121,7 +121,7 @@ items:
   lingering_potion:                                    145
   repeater:                                            130
   observer:                                            125
-  diamond:                                             120
+  diamond:                                             50
   anvil:                                               120
   wolf_armor:                                          120
   sea_lantern:                                         110
@@ -194,7 +194,7 @@ items:
   bamboo_chest_raft:                                   52
   amethyst_shard:                                      50
   redstone:                                            50
-  ink_sac:                                             50
+  ink_sac:                                             30
   end_crystal:                                         50
   shulker_shell:                                       50
   diamond_shovel:                                      50
@@ -718,9 +718,9 @@ items:
   closed_eyeblossom:                                   4
   open_eyeblossom:                                     4
   warped_wart_block:                                   4
-  grass_block:                                         4
-  cherry_leaves:                                       4
-  mangrove_leaves:                                     4
+  grass_block:                                         1
+  cherry_leaves:                                       1
+  mangrove_leaves:                                     1
   mangrove_propagule:                                  4
   shroomlight:                                         4
   shears:                                              4
@@ -1115,7 +1115,7 @@ items:
   netherrack:                                          3
   orange_glazed_terracotta:                            3
   orange_stained_glass_pane:                           3
-  pale_oak_leaves:                                     3
+  pale_oak_leaves:                                     1
   pale_oak_sapling:                                    3
   pink_glazed_terracotta:                              3
   pink_stained_glass_pane:                             3
@@ -1158,61 +1158,61 @@ items:
   infested_cobblestone:                                3
   suspicious_sand:                                     3
   suspicious_gravel:                                   3
-  cut_copper_slab:                                     2
-  exposed_cut_copper_slab:                             2
-  oxidized_cut_copper_slab:                            2
-  weathered_cut_copper_slab:                           2
-  acacia_slab:                                         2
-  andesite_slab:                                       2
-  bamboo_mosaic_slab:                                  2
-  bamboo_slab:                                         2
-  blackstone_slab:                                     2
-  brick_slab:                                          2
-  cherry_slab:                                         2
-  cobbled_deepslate_slab:                              2
-  crimson_slab:                                        2
-  cut_red_sandstone_slab:                              2
-  cut_sandstone_slab:                                  2
-  dark_prismarine_slab:                                2
-  deepslate_brick_slab:                                2
-  deepslate_tile_slab:                                 2
-  diorite_slab:                                        2
-  granite_slab:                                        2
-  jungle_slab:                                         2
-  mangrove_slab:                                       2
-  mossy_cobblestone_slab:                              2
-  mossy_stone_brick_slab:                              2
-  mud_brick_slab:                                      2
-  nether_brick_slab:                                   2
-  oak_slab:                                            2
-  dark_oak_slab:                                       2
-  pale_oak_slab:                                       2
-  polished_andesite_slab:                              2
-  polished_blackstone_brick_slab:                      2
-  polished_blackstone_slab:                            2
-  polished_deepslate_slab:                             2
-  polished_diorite_slab:                               2
-  polished_granite_slab:                               2
-  polished_tuff_slab:                                  2
-  prismarine_brick_slab:                               2
-  prismarine_slab:                                     2
-  red_nether_brick_slab:                               2
-  red_sandstone_slab:                                  2
-  resin_brick_slab:                                    2
-  sandstone_slab:                                      2
-  smooth_red_sandstone_slab:                           2
-  smooth_sandstone_slab:                               2
-  smooth_stone_slab:                                   2
-  spruce_slab:                                         2
-  stone_brick_slab:                                    2
-  stone_slab:                                          2
-  tuff_brick_slab:                                     2
-  tuff_slab:                                           2
-  warped_slab:                                         2
-  waxed_cut_copper_slab:                               2
-  waxed_exposed_cut_copper_slab:                       2
-  waxed_oxidized_cut_copper_slab:                      2
-  waxed_weathered_cut_copper_slab:                     2
+  cut_copper_slab:                                     1
+  exposed_cut_copper_slab:                             1
+  oxidized_cut_copper_slab:                            1
+  weathered_cut_copper_slab:                           1
+  acacia_slab:                                         1
+  andesite_slab:                                       1
+  bamboo_mosaic_slab:                                  1
+  bamboo_slab:                                         1
+  blackstone_slab:                                     1
+  brick_slab:                                          1
+  cherry_slab:                                         1
+  cobbled_deepslate_slab:                              1
+  crimson_slab:                                        1
+  cut_red_sandstone_slab:                              1
+  cut_sandstone_slab:                                  1
+  dark_prismarine_slab:                                1
+  deepslate_brick_slab:                                1
+  deepslate_tile_slab:                                 1
+  diorite_slab:                                        1
+  granite_slab:                                        1
+  jungle_slab:                                         1
+  mangrove_slab:                                       1
+  mossy_cobblestone_slab:                              1
+  mossy_stone_brick_slab:                              1
+  mud_brick_slab:                                      1
+  nether_brick_slab:                                   1
+  oak_slab:                                            1
+  dark_oak_slab:                                       1
+  pale_oak_slab:                                       1
+  polished_andesite_slab:                              1
+  polished_blackstone_brick_slab:                      1
+  polished_blackstone_slab:                            1
+  polished_deepslate_slab:                             1
+  polished_diorite_slab:                               1
+  polished_granite_slab:                               1
+  polished_tuff_slab:                                  1
+  prismarine_brick_slab:                               1
+  prismarine_slab:                                     1
+  red_nether_brick_slab:                               1
+  red_sandstone_slab:                                  1
+  resin_brick_slab:                                    1
+  sandstone_slab:                                      1
+  smooth_red_sandstone_slab:                           1
+  smooth_sandstone_slab:                               1
+  smooth_stone_slab:                                   1
+  spruce_slab:                                         1
+  stone_brick_slab:                                    1
+  stone_slab:                                          1
+  tuff_brick_slab:                                     1
+  tuff_slab:                                           1
+  warped_slab:                                         1
+  waxed_cut_copper_slab:                               1
+  waxed_exposed_cut_copper_slab:                       1
+  waxed_oxidized_cut_copper_slab:                      1
+  waxed_weathered_cut_copper_slab:                     1
   sea_pickle:                                          2
   wheat_seeds:                                         2
   beetroot_seeds:                                      2
@@ -1226,21 +1226,21 @@ items:
   seagrass:                                            2
   ender_pearl:                                         2
   blaze_rod:                                           2
-  oak_leaves:                                          2
-  spruce_leaves:                                       2
-  birch_leaves:                                        2
-  jungle_leaves:                                       2
-  acacia_leaves:                                       2
-  dark_oak_leaves:                                     2
+  oak_leaves:                                          1
+  spruce_leaves:                                       1
+  birch_leaves:                                        1
+  jungle_leaves:                                       1
+  acacia_leaves:                                       1
+  dark_oak_leaves:                                     1
   pink_petals:                                         2
-  azalea_leaves:                                       2
-  flowering_azalea_leaves:                             2
+  azalea_leaves:                                       1
+  flowering_azalea_leaves:                             1
   large_fern:                                          2
   acacia_stairs:                                       2
   black_carpet:                                        2
   blue_carpet:                                         2
   brown_carpet:                                        2
-  cobblestone_slab:                                    2
+  cobblestone_slab:                                    1
   cyan_carpet:                                         2
   dark_oak_stairs:                                     2
   flower_pot:                                          2
@@ -1263,7 +1263,7 @@ items:
   red_sandstone_stairs:                                2
   sandstone_stairs:                                    2
   smooth_quartz:                                       2
-  smooth_quartz_slab:                                  2
+  smooth_quartz_slab:                                  1
   stone_button:                                        0
   stone_pressure_plate:                                2
   terracotta:                                          2
@@ -1288,8 +1288,8 @@ items:
   cherry_boat:                                         2
   oak_boat:                                            2
   bamboo_raft:                                         2
-  petrified_oak_slab:                                  2
-  birch_slab:                                          2
+  petrified_oak_slab:                                  1
+  birch_slab:                                          1
   copper_torch:                                        2
   pitcher_pod:                                         2
   raw_copper:                                          1
@@ -1386,8 +1386,8 @@ items:
   waxed_oxidized_copper_bars:                          1
   short_dry_grass:                                     1
   tall_dry_grass:                                      1
-  leaf_litter:                                         1
-  wildflowers:                                         1
+  leaf_litter:                                         0
+  wildflowers:                                         0
   firefly_bush:                                        1
   bush:                                                1
   cactus_flower:                                       1

@@ -2,6 +2,7 @@ package me.stivendarsi.sellMenu.menu;
 
 
 import io.github.miniplaceholders.api.MiniPlaceholders;
+import me.stivendarsi.orbit.Constants;
 import me.stivendarsi.orbit.Orbit;
 import me.stivendarsi.orbit.orbit.data.OrbitData;
 import net.kyori.adventure.key.Key;
@@ -14,8 +15,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryCloseEvent;
-import org.bukkit.inventory.ItemStack;
 
+import java.util.Arrays;
 import java.util.UUID;
 
 import static me.stivendarsi.sellMenu.SellMenu.mainHandler;
@@ -27,12 +28,7 @@ public class MenuEventHandler implements Listener {
         UUID userUUID = event.getPlayer().getUniqueId();
 
 
-        int sum = 0;
-        for (ItemStack content : event.getInventory().getContents()) {
-            if (content == null) continue;
-            int value = mainHandler().getMoneyHandler().getItemValue(content) * content.getAmount();
-            sum += value;
-        }
+        int sum = mainHandler().getMoneyHandler().sumOfValues(Arrays.asList(event.getInventory().getContents()));
 
 
         OrbitData currentOrbitData = Orbit.mainHandler().orbitHandler().getCurrentOrbit();
@@ -64,8 +60,6 @@ public class MenuEventHandler implements Listener {
         player.sendActionBar(msg);
         player.sendMessage(msg);
 
-        Sound depositSound = Sound.sound().type(Key.key("minecraft:entity.experience_orb.pickup")).source(Sound.Source.UI).build();
-
-        player.playSound(depositSound);
+        player.playSound(Constants.pingSound);
     }
 }
