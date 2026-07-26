@@ -29,6 +29,12 @@ public class CommandHandler {
             commands.register(Commands.literal("worth").executes(SellCommands::openValueBrowser)
                             .then(Commands.literal("hand").executes(SellCommands::getItemValue))
                     .build());
+
+            commands.register(Commands.literal("lang-ref").executes(context -> {
+
+                return 1;
+            }).build());
+
             commands.register(Commands.literal("sell").executes(SellCommands::open)
 
                     .then(Commands.literal("get-multiplier").requires(commandSourceStack -> commandSourceStack.getSender().hasPermission(sellAdmin))

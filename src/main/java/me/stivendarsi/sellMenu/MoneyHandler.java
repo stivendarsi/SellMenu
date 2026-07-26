@@ -6,6 +6,7 @@ import io.papermc.paper.datacomponent.item.BundleContents;
 import io.papermc.paper.datacomponent.item.ItemContainerContents;
 import me.stivendarsi.sellMenu.menu.CachedItemStack;
 import net.kyori.adventure.key.Key;
+import net.kyori.adventure.translation.TranslationStore;
 import net.luckperms.api.model.user.User;
 import net.luckperms.api.node.NodeType;
 import net.luckperms.api.node.types.MetaNode;
