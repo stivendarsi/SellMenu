@@ -26,7 +26,7 @@ public class CommandHandler {
         SellMenu.sellMenuInstance().getServer().getPluginManager().addPermission(sellAdmin);
         manager.registerEventHandler(LifecycleEvents.COMMANDS, (event) -> {
             Commands commands = event.registrar();
-            commands.register(Commands.literal("worth").executes(SellCommands::openValueBrowser)
+            commands.register(Commands.literal("worth") //.executes(SellCommands::openValueBrowser)
                             .then(Commands.literal("hand").executes(SellCommands::getItemValue))
                     .build());
 

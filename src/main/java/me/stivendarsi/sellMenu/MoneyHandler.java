@@ -87,7 +87,6 @@ public class MoneyHandler {
                 sellMenuInstance().getLogger().warning("Null item type: " + itemTypeName);
                 continue;
             }
-            System.out.println("items." + itemTypeName);
             int value = sellMenuInstance().getConfig().getInt("items." + itemTypeName, 0);
             valueMap.put(itemType, value);
 

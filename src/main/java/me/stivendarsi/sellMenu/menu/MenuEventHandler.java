@@ -31,10 +31,8 @@ public class MenuEventHandler implements Listener {
         int inventoryValue = mainHandler().getMoneyHandler().sumOfValues(Arrays.asList(event.getInventory().getContents()));
 
         OrbitData currentOrbitData = Orbit.mainHandler().orbitHandler().getCurrentOrbit();
-        if (currentOrbitData == null) {
-            System.out.println("Null orbit: ");
-            return;
-        }
+        if (currentOrbitData == null) throw new RuntimeException("Null orbit");
+
 
         double multiplier = mainHandler().getMoneyHandler().getUserMultiplier(userUUID, currentOrbitData.identifier());
 

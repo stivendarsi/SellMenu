@@ -6,13 +6,13 @@ public class MessageHandler {
     private String receivedMessage;
 
     public void load() {
-        System.out.println(sellMenuInstance().getConfig().getKeys(false));
+        //System.out.println(sellMenuInstance().getConfig().getKeys(false));
         this.receivedMessage = sellMenuInstance().getConfig().getString("messages.received", "null");
         sellMenuInstance().getLogger().info("Received message: " + receivedMessage);
     }
 
     public String getReceivedMessage() {
-        System.out.println(this.receivedMessage);
+        //System.out.println(this.receivedMessage);
         return receivedMessage;
     }
 
