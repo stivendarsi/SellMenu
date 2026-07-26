@@ -21,3 +21,6 @@ dependencies:
     Orbit:
       required: true
       load: BEFORE
+    Nexo:
+      required: true
+      load: BEFORE

@@ -8,6 +8,7 @@ repositories {
     maven("https://repo.papermc.io/repository/maven-public/")
     maven ("https://repo.codemc.io/repository/creatorfromhell/")
     maven ("https://repo.extendedclip.com/releases/")
+    maven("https://repo.nexomc.com/releases")
 }
 
 dependencies {
@@ -16,6 +17,7 @@ dependencies {
     compileOnly("net.luckperms:api:5.5")
     compileOnly(files("libs/Orbit.jar"))
     compileOnly("io.github.miniplaceholders:miniplaceholders-api:3.2.0")
+    compileOnly("com.nexomc:nexo:1.26.0")
 }
 
 java {

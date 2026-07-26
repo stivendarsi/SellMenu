@@ -77,7 +77,9 @@ public class SellCommands {
 
         sellMenuInstance().getServer().getAsyncScheduler().runNow(sellMenuInstance(), scheduledTask -> {
 
+
             WorthBrowser worthBrowser = new WorthBrowser(player);
+
             player.showDialog(worthBrowser.getDialog(""));
 
         });

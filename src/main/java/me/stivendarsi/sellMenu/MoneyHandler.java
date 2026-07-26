@@ -4,6 +4,7 @@ import com.google.common.base.Preconditions;
 import io.papermc.paper.datacomponent.DataComponentTypes;
 import io.papermc.paper.datacomponent.item.BundleContents;
 import io.papermc.paper.datacomponent.item.ItemContainerContents;
+import me.stivendarsi.sellMenu.menu.CachedItemStack;
 import net.kyori.adventure.key.Key;
 import net.luckperms.api.model.user.User;
 import net.luckperms.api.node.NodeType;
@@ -26,7 +27,7 @@ import static org.bukkit.Bukkit.getServer;
 @SuppressWarnings("UnstableApiUsage")
 public class MoneyHandler {
     private Map<ItemType, Integer> valueMap;
-    private  List<Map.Entry<ItemStack, Integer>> sorted;
+    private  List<Map.Entry<CachedItemStack, Integer>> sorted;
 
     private Economy econ;
 
@@ -44,8 +45,6 @@ public class MoneyHandler {
         currency.setMaximumFractionDigits(0);
         return currency.format(moneyAmount);
     }
-
-
 
     public int valueOfItemStack(ItemStack content){
         if (content == null) return 0;
@@ -70,7 +69,7 @@ public class MoneyHandler {
 
         for (ItemStack content : stacks) {
             if (content == null) continue;
-            sum += getItemValue(content);
+            sum += valueOfItemStack(content);
         }
 
         return sum;
@@ -87,6 +86,7 @@ public class MoneyHandler {
                 sellMenuInstance().getLogger().warning("Null item type: " + itemTypeName);
                 continue;
             }
+            System.out.println("items." + itemTypeName);
             int value = sellMenuInstance().getConfig().getInt("items." + itemTypeName, 0);
             valueMap.put(itemType, value);
 
@@ -98,15 +98,18 @@ public class MoneyHandler {
         }
 
         this.sorted = valueMap.entrySet().stream()
-                .map(entry -> Map.entry(entry.getKey().createItemStack(), entry.getValue()))
-                .sorted(Map.Entry.<ItemStack, Integer>comparingByValue().reversed())
+                .map(itemTypeValue -> {
+                    int value = itemTypeValue.getValue();
+                    ItemType itemType = itemTypeValue.getKey();
+                    return Map.entry(new CachedItemStack(itemType, value), value);
+                })
+                .sorted(Map.Entry.<CachedItemStack, Integer>comparingByValue().reversed())
                 .toList();
 
     }
 
     public void deposit(UUID user, int amount) {
         getEconomy().depositPlayer(Bukkit.getOfflinePlayer(user), amount);
-
     }
 
 
@@ -173,7 +176,7 @@ public class MoneyHandler {
         econ = rsp.getProvider();
     }
 
-    public List<Map.Entry<ItemStack, Integer>> getSorted() {
+    public List<Map.Entry<CachedItemStack, Integer>> getSorted() {
         return sorted;
     }
 

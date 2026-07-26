@@ -28,8 +28,7 @@ public class MenuEventHandler implements Listener {
         UUID userUUID = event.getPlayer().getUniqueId();
 
 
-        int sum = mainHandler().getMoneyHandler().sumOfValues(Arrays.asList(event.getInventory().getContents()));
-
+        int inventoryValue = mainHandler().getMoneyHandler().sumOfValues(Arrays.asList(event.getInventory().getContents()));
 
         OrbitData currentOrbitData = Orbit.mainHandler().orbitHandler().getCurrentOrbit();
         if (currentOrbitData == null) {
@@ -37,21 +36,18 @@ public class MenuEventHandler implements Listener {
             return;
         }
 
-        if (sum < 0) sum = Integer.MAX_VALUE;
-
         double multiplier = mainHandler().getMoneyHandler().getUserMultiplier(userUUID, currentOrbitData.identifier());
 
-        int finalAmount = Math.round((float) multiplier * sum);
+        inventoryValue = (int) (inventoryValue * multiplier);
 
-        System.out.println(finalAmount);
-
-        if (finalAmount <= 0) return;
-        mainHandler().getMoneyHandler().deposit(userUUID, finalAmount);
+        if (inventoryValue <= 0) return;
+        mainHandler().getMoneyHandler().deposit(userUUID, inventoryValue);
 
 
         if (!(event.getPlayer() instanceof Player player)) return;
 
-        String formatted = mainHandler().getMoneyHandler().format(finalAmount);
+        String formatted = mainHandler().getMoneyHandler().format(inventoryValue);
+
 
         TagResolver currencyResolver = TagResolver.builder().tag("amount", Tag.preProcessParsed(formatted)).build();
 
